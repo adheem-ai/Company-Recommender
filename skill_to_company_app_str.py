@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 
-model = joblib.load("skill_to_company_model.pkl")
-encoder = joblib.load("skill_to_company_encoder.pkl")
+model = joblib.load("company_model.pkl")
+encoder = joblib.load("company_encoder.pkl")
 
 
 menu = st.sidebar.selectbox("Menu", ["Home", "About", "Contact"])
